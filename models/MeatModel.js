@@ -14,6 +14,6 @@ const Meat = db.define('meat', {
 
 export default Meat;
 
-(async()=>{
-    await db.sync()
-})()
+// (async()=>{
+//     await db.sync()
+// })()
